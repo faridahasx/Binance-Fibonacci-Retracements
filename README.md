@@ -38,4 +38,4 @@ Forward the password to your telegram bot and the bot is ready to send messages 
 
 
 ## Run the trading bot
-After setting up the bot, run ***bot.py***:
+After setting up the bot, run ***bot.py***
