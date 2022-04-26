@@ -1,25 +1,3 @@
-"""
-Strategy
-
-Signal: When high of 1 Hour candlestick is up more than 20% from the opening.
-Fibonacci Retracement levels are calculated based upon open and high of the candlestick.
-
-Entry Level: 0.786
-Exit Level: 0.5
-
-Entry:If you don't have an open position, give limit buy order after the signal.
-If were you already in position and you exit the position before the price drops to the entry level of current signal, give limit buy order.
-
-Exit: Give limit sell order right after the entry and wait until the order is filled.
-
-
-The bot will get live prices for each USDT pair listed in Binance and get in trade
-
-To change the settings of the bot, please refer to constants.py file
-
-"""
-
-
 import logging
 import websocket
 import json
