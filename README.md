@@ -21,7 +21,7 @@ To the stategy with different settings and pairs, please refer to ***backtest.ip
 ## Configure and change the settings of the bot
 You can specify how many positions you want to take at once and how much you want to spend for each position.
 
-*Please refer to* **constants.py**
+*To configure the bot, please refer to* **constants.py**
 
 ## Set up the telegram bot 
 #### 1. Create a chatbot with @BotFather
