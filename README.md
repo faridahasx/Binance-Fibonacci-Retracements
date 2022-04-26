@@ -4,7 +4,8 @@ It also live streams user data so when entry is filled it gives sell order immed
 
 When you enter and exit a trade, you get messages via telegram bot.
 
-##Strategy
+## Strategy
+
         Signal: When high of 1 Hour candlestick is up more than 20% from the opening.
         Fibonacci Retracement levels are calculated based upon open and high of the 1 Hour candlestick.
         
@@ -22,8 +23,8 @@ You can specify how many positions you want to take at once and how much you wan
 *Please refer to* **constants.py**
 
 ## Set up the telegram bot 
-####1. Create a chatbot with @BotFather
-####2.Open terminal and run:
+#### 1. Create a chatbot with @BotFather
+#### 2.Open terminal and run:
     telegram-send configure
 
 
