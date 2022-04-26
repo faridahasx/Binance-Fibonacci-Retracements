@@ -15,7 +15,8 @@ When you enter and exit a trade, you get messages via telegram bot.
         Do not enter a trade second time for the same pair within an hour.
 
 
-*To backtest the stategy with different settings and pairs, please refer to* ***backtest.ipynb***
+## Backtest 
+To the stategy with different settings and pairs, please refer to ***backtest.ipynb***
 
 ## Configure and change the settings of the bot
 You can specify how many positions you want to take at once and how much you want to spend for each position.
