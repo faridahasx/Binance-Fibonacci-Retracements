@@ -9,14 +9,15 @@ def on_open(ws):
     telegram_send.send(messages=["Opened Connection!"])
 
 
-
 def on_close(ws, close_status_code, close_msg):
     logging.critical("Closed connection")
     telegram_send.send(messages=["Closed connection"])
 
+
 def on_error(ws, error):
     logging.error(error)
     telegram_send.send(messages=[str(error)])
+
 
 def on_ping(wsapp, message):
     pass
