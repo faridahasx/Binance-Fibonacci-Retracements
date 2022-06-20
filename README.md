@@ -25,11 +25,11 @@ You can specify how many positions you want to take at once and how much you wan
 
 ## Set up the telegram bot 
 #### 1. Create a chatbot with @BotFather
-#### 2.Open terminal and run:
+#### 2. Open terminal and run:
     telegram-send configure
 
 
-Token telegram-send will ask for the token you got from the botfather and 
+Telegram-send will ask for the token you got from the botfather and 
 then give you a password that you need to message to your new bot on Telegram.
 
 Send the token you got from the botfather and telegram-send will reply with a 5-digit password you need to send to your new bot.
