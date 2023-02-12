@@ -4,7 +4,6 @@ API_SECRET = "YOUR SECRET KEYS"
 # Total USDT amount to spend for each position
 USDT_to_spend = 100
 
-# Positions you want to take at a time
 position_limit = 10
 
 # Fibonacci levels
