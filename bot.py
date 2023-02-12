@@ -177,11 +177,9 @@ if __name__ == '__main__':
     thread = threading.Thread(target=connect, args=(on_message, SOCKET))
     thread.start()
     threads.append(thread)
-    threads.append(thread)
 
     thread1 = threading.Thread(target=user_data_stream, args=())
     thread1.start()
-    threads.append(thread1)
     threads.append(thread1)
 
     for t in threads:
